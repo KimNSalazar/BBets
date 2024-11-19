@@ -41,9 +41,7 @@ profit[i]=BrLw(odds =4.4)
 hist(profit)
 ```
 
-
-
-
+According to the histrogram, the fair odds are at around 4.4 to 4.5 to match a class of 35 students. This is where browlow is not making any profit.
 
 ## Our strategy is to build a Function and the use it to answer the three questions. 
 
