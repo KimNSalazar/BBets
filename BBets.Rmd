@@ -55,6 +55,21 @@ hist(profit)
 
 For a 2:1 fair odds bet in the classroom, the size should be around approximately between 28 or 29 students so it can be $2 bet outta $1 each students
 
+3. How much money would Brownlow be expected to end up with if the bets went as described.
+
+```{r}
+profit=as.numeric()
+for (i in 1:1000) {
+profit[i]=BrLw()
+}
+hist(profit)
+sprofit<-sort(profit)
+print(sprofit [25])
+print(sprofit [975])
+```
+
+According to the R.Console there a 95% chance that the low end will be between 200 to 230 as low, than a 95% chance of high end where it goes from  a 330 to 400 chance in the bets of how many students in class will have the same birthday.
+
 ## Our strategy is to build a Function and the use it to answer the three questions. 
 
 
